@@ -1,0 +1,47 @@
+RetroArchive
+============
+
+RetroArchive is a modular PowerShell-based tool to manage and convert retro game archives,
+starting with CHD file conversions and repository syncing.
+
+Folder Structure:
+-----------------
+- archive\      : Converted CHD files output
+- config\       : Configuration files (settings.json)
+- inbound\      : Incoming files to process
+- logs\         : Log files (optional)
+- scripts\      : Modular PowerShell scripts (functions only)
+- tools\        : External tools like chdman.exe and 7z.exe
+- retroarchive.ps1 : Main UI and sync script
+
+Getting Started:
+----------------
+1. Place 'retroarchive.ps1' in your working directory.
+2. Run the script with PowerShell: 
+   > .\retroarchive.ps1
+3. On first run, the script will download and sync the GitHub repository contents.
+4. Use the menu options to initialize folders and convert CHD files.
+
+Configuration:
+--------------
+- Modify settings in 'config\settings.json' to update paths and tool versions.
+
+Requirements:
+-------------
+- Windows with PowerShell
+- Internet connection for syncing GitHub repo
+- Tools (chdman.exe, 7z.exe) will be placed in the 'tools' folder after sync
+
+Notes:
+------
+- The project is designed to be modular; additional scripts can be added in 'scripts\'.
+- All key actions are performed via the menu-driven UI in 'retroarchive.ps1'.
+
+License:
+--------
+[Specify your license here, e.g., MIT License]
+
+---
+
+Feel free to customize this as you add features!
+
