@@ -1,0 +1,12 @@
+{
+  "name": "Nintendo Entertainment System",
+  "system_subfolder": "nes",
+  "games_json": "archive/nes/games.json",
+  "file_formats": {
+    "uncompressed": [".nes", ".fds", ".wad"],
+    "compressed": [".zip", ".7z"]
+  },
+  "archive": {
+    "default_compression": "zip"
+  }
+}

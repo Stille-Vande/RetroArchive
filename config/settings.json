@@ -1,0 +1,20 @@
+{
+    "logging":  {
+                    "enabled":  true,
+                    "debug":  true
+                },
+    "paths":  {
+                  "archive":  "archive",
+                  "inbound":  "inbound",
+                  "roms":  "roms",
+                  "scripts":  "scripts",
+                  "logs":  "logs",
+                  "tools":  "C:\\Users\\Administrator\\Documents"
+              },
+    "tools":  {
+                  "7z":  "7z.exe",
+                  "chdman":  "chdman.exe",
+                  "chdmanVersion":  "0278b_64bit",
+                  "sevenZipVersion":  "24.09"
+              }
+}
