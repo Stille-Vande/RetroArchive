@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "archive": "archive",
+    "config": "config",
+    "inbound": "inbound",
+    "logs": "logs",
+    "roms": "../roms",
+    "scripts": "scripts",
+    "sevenZipExe": "tools/7z.exe",
+    "tools": "tools",
+    "chdmanExe": "tools/chdman.exe"
+  },
+  "versions": {
+    "chdman": "0.278b",
+    "7zip": "24.09"
+  }
+}
